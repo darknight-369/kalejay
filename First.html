@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/webpage1.css">
+<style type="text/css">
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #f0e4e4;
+}
+
+.container {
+  height: max-content;
+  background: #dec3c3;
+  display: flex;
+  margin: 10px;
+}
+
+.item {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.item-1{ 
+  background: #451e3e;
+  transition: all 1s ease;
+  height: 150px;
+  width: 150px;
+}
+
+.item-1:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 14px 21px 69px -8px #451e3e;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 30px 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+
+.fa:hover {
+    opacity: 100%;
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 15px 25px 65px -12px #451e3e;
+    transition: 300ms;
+
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  background-image: url(https://i.ytimg.com/vi/8Z1eMy2FoX4/maxresdefault.jpg) no-repeat;
+  background-size: auto;
+  border-radius: 15px;
+  background-color: black;
+  padding: 40px;
+}
+
+/* Create two columns that float next to eachother */
+.raid {
+  position: absolute;
+  width: 650px;
+  /*min-height: 50px;*/
+  height: 380px;
+  /*background-color: white;*/
+  right: 18%;
+    top: 80%;
+}
+
+.home{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.home label{
+  font-size: ;
+  padding-right:  60px;
+  text-transform: uppercase;
+
+
+}
+.home input{
+  font-size: 25px;
+  padding: 0;
+  opacity: 0.7px;
+
+}
+.inputtext{
+  width: 35%;
+  height: 45px;
+  border: 3px solid black;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  font-size: 25px;
+  padding: 0 10px;
+
+
+  float: right;
+
+
+}
+.inputmessage{
+   width: 100%;
+  height: 135px;
+  border: 3px solid black;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  font-size: 20px;
+  padding: 0 10px;
+  float: left;
+
+}
+.submitbutton{
+  width: 160px;
+  height: 65px;
+  font-family: sans-serif;
+  background-color: white;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  clear: both;
+  
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<!-- Note -->
+<div style="background:yellow;padding:3.5px">
+  <h4></h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+<h1>Student Information</h1>
+  
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+  <a href="https://www.google.com/" class="fa fa-google"></a>
+  <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div style="background-color:lightblue" class="side">
+
+    <h2>Personal Details</h2>
+    <h5>Photo of me:</h5>
+    <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" alt="Student Photo">
+    <h2>Name: Jay Kale</h2>
+    <h2>Roll.No: 16</h2>     
+    <h2>College:<br></h2>
+    <h2 style="color:red;">Datta Meghe College of Engineering</h2>
+    <h2>Branch: I.T.</h2>
+    <h2>Date Of Birth: 01/24/2001</h2>
+    <h2>Email-Id: jaykale60@gmail.com</h2>
+    <h2>Blood group: A+</h2>
+   
+  </div>
+<div class="main">
+    <h2>More about me:</h2>
+    <h2>Hobbies:</h2>
+    <h3>Reading Books</h3>
+    <h3>Video Games</h3>
+    <h3>Playing Guitar</h3>
+    <br>
+    <h2>Skills:</h2>
+    <h2>JAVA & Python</h2>
+    <!-- <p>Did you know that your “About Me” page is the most-visited page on your online portfolio. Check your stats and you’ll see that it’s true. After they see your images, it’s the natural next step for both clients and fans. Who’s the person behind the work?
+
+For many people, writing about yourself isn’t easy. Whether you’re just starting out in your field, or you have years of experience behind you, figuring out how to describe what you do in a few quick sentences is a challenge.
+
+You want to make sure visitors to your site understand your work—but you don’t want to go into too much detail in case they lose interest. You want to mention recognition you’ve received and exciting projects you’ve completed—but you don’t want to seem like you’re bragging.</p> -->
+   
+     
+
+<div class="container">
+
+  <img src="/home/lenovo/Documents/Webpage/img/back.jpeg" width="100%" height="100%" sizes="cover" border-radius="15px">
+  <div class="raid">
+    
+   
+   <div class="home">
+    <h1 style="text-align: center; font-family: sans-serif; height: auto; ">Contact Us</h1>
+    
+
+     <form action="">
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" class="inputtext" placeholder=" Your first name..">
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lastname" class="inputtext" placeholder=" Your last name..">       
+        <label for="subject"></label>
+        <textarea id="subject" name="subject" class="inputmessage" placeholder="Write something.." ></textarea>
+        <input type="submit" class="submitbutton" value="Submit">
+      </form>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div style="background-color:yellow"class="footer">
+  <h2 text-color:powderblue>Thank You For Visiting!</h2>
+</div>
+
+</body>
+</html>
